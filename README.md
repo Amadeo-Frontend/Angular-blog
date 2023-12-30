@@ -1,27 +1,53 @@
-# FirstApp
+# Blog - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é um projeto de blog desenvolvido com Angular, incorporando Tailwind CSS para um design moderno e responsivo. Inspirado nos designs mais inovadores do Dribbble, este blog oferece uma experiência de usuário intuitiva e visualmente cativante.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular**: Framework robusto para construção de interfaces ricas e interativas.
+- **Tailwind CSS**: Framework de CSS utilitário para designs customizados e responsivos.
+- **Design Inspirado no Dribbble**: Layout e estética baseados nas tendências de design mais atuais.
+- **Responsivo**: Perfeitamente adaptável a todos os dispositivos, de smartphones a desktops.
 
-## Code scaffolding
+## Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Antes de iniciar, certifique-se de ter instalado:
 
-## Build
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalação
 
-## Running unit tests
+Clone o repositório para a sua máquina local:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+git clone <https://seu-repositorio-aqui.git>
 
-## Running end-to-end tests
+csharp
+Copy code
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Navegue até a pasta do projeto e instale as dependências:
 
-## Further help
+cd blog-app
+npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Rodando o Projeto
+
+Para iniciar o servidor de desenvolvimento, execute:
+
+ng serve
+
+Acesse `http://localhost:4200/` no seu navegador para ver o blog em ação.
+
+## Contribuindo
+
+Contribuições são sempre bem-vindas! Para contribuir, por favor:
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`).
+3. Faça commit de suas mudanças (`git commit -m 'Add some AmazingFeature'`).
+4. Faça push para a branch (`git push origin feature/AmazingFeature`).
+5. Abra um Pull Request.
+
+---
+
+Feito com ♥ e Angular.
