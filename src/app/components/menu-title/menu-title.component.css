@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0);
+}
+
+hr {
+  font-size: 10px;
+  color: aliceblue;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInAnimation {
+  animation: fadeIn 1s ease-in-out;
+}
