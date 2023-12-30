@@ -22,10 +22,7 @@ Clone o repositório para a sua máquina local:
 
 git clone (https://github.com/Amadeo-Frontend/Angular-blog)
 
-csharp
-Copy code
-
-Navegue até a pasta do projeto e instale as dependências:
+- Navegue até a pasta do projeto e instale as dependências:
 
 cd blog-app
 npm install
