@@ -20,7 +20,7 @@ Antes de iniciar, certifique-se de ter instalado:
 
 Clone o repositório para a sua máquina local:
 
-git clone <https://seu-repositorio-aqui.git>
+git clone (https://github.com/Amadeo-Frontend/Angular-blog)
 
 csharp
 Copy code
