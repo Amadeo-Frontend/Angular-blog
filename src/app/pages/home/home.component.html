@@ -1,15 +1,19 @@
-<header class="mt-5">
-  <app-menu-bar></app-menu-bar>
-</header>
-<app-menu-title></app-menu-title>
-<div class="articles mt-[30px] flex flex-col xl:flex-row justify-center">
-  <div class="articles__main">
-    <app-big-card></app-big-card>
+<body class="w-full overflow-x-hidden">
+  <header class="mt-5">
+    <app-menu-bar></app-menu-bar>
+  </header>
+  <app-menu-title></app-menu-title>
+  <div
+    class="articles mt-[30px] w-full flex flex-col md:flex-col xl:flex-row justify-center"
+  >
+    <div class="articles__main">
+      <app-big-card></app-big-card>
+    </div>
+    <div class="articles__others">
+      <app-small-card></app-small-card>
+      <app-small-card></app-small-card>
+      <app-small-card></app-small-card>
+      <app-small-card></app-small-card>
+    </div>
   </div>
-  <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-  </div>
-</div>
+</body>
