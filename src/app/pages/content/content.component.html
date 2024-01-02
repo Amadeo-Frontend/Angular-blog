@@ -1,0 +1,21 @@
+<div class="container__content w-full h-svh flex flex-col items-center">
+  <div class="content__cover">
+    <img
+      class="w-[500px] min-w-[500px] h-300px mt-16 rounded-md border-4 border-solid border-slate-400"
+      src="{{ imgCover }}"
+      alt=""
+    />
+  </div>
+  <a class="my-3 hover:text-accent hover:translate-x-2" [routerLink]="['']">
+    << VOLTAR</a
+  >
+  <div class="content__title mt-4">
+    <h1 class="text-[25px]">{{ contentTitle }}</h1>
+    <hr />
+  </div>
+  <div class="content__description mt-4 max-w-[700px]">
+    <p class="text-[16px] text-slate-500">
+      {{ contentDescription }}
+    </p>
+  </div>
+</div>
