@@ -4,18 +4,17 @@
   <a href="#" class="hover:scale-[1.02] transition-all">
     <div class="big-card__img">
       <img
-        class="rounded-md h-[250px] max-w-[500px] md:h-[280px]"
-        src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
+        class="rounded-md shadow-md object-fill h-[250px] max-w-[500px] md:h-[280px]"
+        src="{{ cardImg }}"
         alt="placeholder"
       />
     </div>
-    <div class="big-card__title my-4">
-      <h1 class="text-[25px]">Cacilds vidis litro abertis.</h1>
+    <div class="big-card__title uppercase my-4">
+      <h1 class="text-[25px]">{{ cardTitle }}</h1>
     </div>
     <div class="big-card__description">
       <p class="text-[16px] text-slate-500">
-        Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi
-        eu sit. Vide electram sadipscing et per.
+        {{ cardDescription }}
       </p>
     </div>
   </a>
