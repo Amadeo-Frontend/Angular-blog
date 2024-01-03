@@ -8,6 +8,13 @@ Este é um projeto de blog desenvolvido com Angular, incorporando Tailwind CSS p
 - **Tailwind CSS**: Framework de CSS utilitário para designs customizados e responsivos.
 - **Design Inspirado no Dribbble**: Layout e estética baseados nas tendências de design mais atuais.
 - **Responsivo**: Perfeitamente adaptável a todos os dispositivos, de smartphones a desktops.
+- **API com Dados JSON**: Integração com uma API que busca dados de um arquivo JSON, proporcionando um conteúdo dinâmico.
+- **Módulo de Ícones**: Utilização de um módulo específico para ícones, enriquecendo a interface do usuário.
+- **Animações**: Implementação de animações sofisticadas para uma experiência de usuário mais interativa e agradável.
+
+## Live
+
+<https://angular-blog-sage.vercel.app/>
 
 ## Pré-requisitos
 
@@ -20,7 +27,7 @@ Antes de iniciar, certifique-se de ter instalado:
 
 Clone o repositório para a sua máquina local:
 
-git clone (https://github.com/Amadeo-Frontend/Angular-blog)
+git clone (<https://github.com/Amadeo-Frontend/Angular-blog>)
 
 - Navegue até a pasta do projeto e instale as dependências:
 
