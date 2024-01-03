@@ -20,7 +20,11 @@ Este é um projeto de blog desenvolvido com Angular, incorporando Tailwind CSS p
 
 
 
-https://github.com/Amadeo-Frontend/Angular-blog/assets/104178969/48320da9-88ce-4636-b633-b0ea9d00b800
+
+
+https://github.com/Amadeo-Frontend/Angular-blog/assets/104178969/45689423-accf-4a24-95c2-f1ef36c10279
+
+
 
 
 
