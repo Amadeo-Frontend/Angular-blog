@@ -21,6 +21,9 @@ module.exports = {
         accent: "#F13024",
         third: "rgba(50, 64, 255, 0.9831582291119573)",
       },
+      boxShadow: {
+        custom: "0 0 20px #00fffb, 0 0 40px #008fbc",
+      },
       animation: {
         "spin-slow": "spin 6s linear infinite",
       },
@@ -31,5 +34,5 @@ module.exports = {
       DEFAULT: "15px",
     },
   },
-  plugins: [],
+  plugins: ["tailwindcss-textshadow"],
 };
