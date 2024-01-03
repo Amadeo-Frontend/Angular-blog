@@ -28,7 +28,11 @@ https://github.com/Amadeo-Frontend/Angular-blog/assets/104178969/45689423-accf-4
 
 
 
-https://github.com/Amadeo-Frontend/Angular-blog/assets/104178969/2c1a110b-7fdd-42e2-9f7d-130553e5b093
+
+
+
+https://github.com/Amadeo-Frontend/Angular-blog/assets/104178969/07de6a86-fef9-4699-be36-3c7208a8d709
+
 
 
 
