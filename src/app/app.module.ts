@@ -9,6 +9,7 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { IconsModule } from './icons/icons.module';
 import { ContentComponent } from './pages/content/content.component';
@@ -25,7 +26,7 @@ import { ApiService } from './services/api/api.component';
     HomeComponent,
     ContentComponent,
     FooterComponent,
-
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
