@@ -5,7 +5,6 @@ import { ApiService } from '../../services/api/api.component';
 @Component({
   selector: 'app-small-card',
   templateUrl: './small-card.component.html',
-  styleUrls: ['./small-card.component.css']
 })
 export class SmallCardComponent implements OnInit {
   faNewspaper = faNewspaper;
