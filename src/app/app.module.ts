@@ -10,8 +10,9 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { IconsModule } from './icons/icons.module';
-import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ApiService } from './services/api/api.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ContentComponent } from './pages/content/content.component';
     BigCardComponent,
     SmallCardComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,7 @@ import { ContentComponent } from './pages/content/content.component';
     FontAwesomeModule,
     IconsModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

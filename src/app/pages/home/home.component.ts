@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../../services/api/api.component';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  dados: any[] = [];
+
+  constructor(private apiService: ApiService) { }
 
   ngOnInit(): void {
+    this.carregarDados();
   }
 
+  carregarDados(): void {
+    this.apiService.getDados().subscribe(
+      data => {
+        this.dados = data;
+      },
+      erro => {
+        console.error('Erro ao carregar dados', erro);
+      }
+    );
+  }
 }

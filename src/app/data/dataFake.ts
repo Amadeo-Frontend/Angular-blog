@@ -1,4 +1,11 @@
-export const dataFake = [
+export interface DataFakeType {
+  id: string;
+  imgCover: string;
+  title: string;
+  description: string;
+}
+
+export const dataFake: DataFakeType[] = [
   {
     "id": "1",
     "imgCover": "https://th.bing.com/th/id/OIP.f8hQPipeCPS3JihmXQkWvgHaEK?w=292&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
