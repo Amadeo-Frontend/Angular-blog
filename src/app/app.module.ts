@@ -6,6 +6,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
@@ -23,6 +24,7 @@ import { ApiService } from './services/api/api.component';
     SmallCardComponent,
     HomeComponent,
     ContentComponent,
+    FooterComponent,
 
   ],
   imports: [

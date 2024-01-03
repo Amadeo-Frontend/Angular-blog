@@ -1,7 +1,7 @@
-<div class="container__content w-full h-svh flex flex-col items-center">
+<div class="container__content p-4 w-full flex flex-col items-center">
   <div class="content__cover">
     <img
-      class="w-[500px] min-w-[500px] h-300px mt-16 rounded-md border-4 border-solid border-slate-400"
+      class="w-[500px] min-w-[400px] h-300px mt-16 rounded-md border-4 border-solid border-slate-400"
       src="{{ imgCover }}"
       alt=""
     />
@@ -13,8 +13,10 @@
     <h1 class="text-[25px]">{{ contentTitle }}</h1>
     <hr />
   </div>
-  <div class="content__description mt-4 max-w-[700px]">
-    <p class="text-[16px] text-slate-500">
+  <div class="content__description my-4 xl:w-[600px]">
+    <p
+      class="text-[16px] text-slate-500 mb-5 text-justify indent-1 font-extralight"
+    >
       {{ contentDescription }}
     </p>
   </div>
