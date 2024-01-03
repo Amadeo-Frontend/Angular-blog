@@ -1,6 +1,4 @@
-<div
-  class="container__small-card p-4 w-[700px] mb-5 hover:scale-[1.02] transition-all cursor-pointer"
->
+<div class="container__small-card p-4 w-[700px] mb-5">
   <div
     class="container__small-card-content p-3 flex flex-col justify-center items-start xl:flex-row xl:items-center xl:justify-start"
   >
@@ -12,10 +10,12 @@
       />
     </div>
     <div
-      class="small-card__title flex justify-center items-center hover:opacity-75"
+      class="small-card__title flex justify-center items-center hover:opacity-75 hover:scale-[1.02] transition-all cursor-pointer"
     >
-      <fa-icon [icon]="faNewspaper"></fa-icon>
-      <h1 class="text-[20px] m-2">{{ smallCardTitle }}</h1>
+      <a [routerLink]="['content', Id]"
+        ><fa-icon [icon]="faNewspaper"></fa-icon>
+        <h1 class="text-[20px] m-2">{{ smallCardTitle }}</h1></a
+      >
     </div>
   </div>
   <div class="p-3"><hr class="text-slate-100 my-5" /></div>
