@@ -5,11 +5,13 @@ import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [{
   path: '',
-  component:HomeComponent
+  component:HomeComponent,
+  pathMatch:'full'
 },
 {
   path: 'content/:id',
-  component:ContentComponent
+  component:ContentComponent,
+  pathMatch:'prefix'
 }
 ];
 
