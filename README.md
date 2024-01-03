@@ -18,9 +18,10 @@ Este é um projeto de blog desenvolvido com Angular, incorporando Tailwind CSS p
 
 ## Demo
 
-[Uploading Zombies Blog[InternetShortcut]
-URL=file:///C:/Users/Usu%C3%A1rio/Videos/Captures/Zombies%20Blog%20e%20mais%205%20p%C3%A1ginas%20-%20Pessoal%20%E2%80%94%20Microsoft%E2%80%8B%20Edge%202024-01-03%2002-35-32.mp4
- e mais 5 páginas - Pessoal — Microsoft%E2%80%8B Edge 2024-01-03 02-35-32.mp4.url…]()
+
+
+https://github.com/Amadeo-Frontend/Angular-blog/assets/104178969/48320da9-88ce-4636-b633-b0ea9d00b800
+
 
 
 ## Pré-requisitos
