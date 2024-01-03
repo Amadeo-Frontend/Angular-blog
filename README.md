@@ -16,6 +16,14 @@ Este é um projeto de blog desenvolvido com Angular, incorporando Tailwind CSS p
 
 <https://angular-blog-sage.vercel.app/>
 
+## Demo
+
+
+
+https://github.com/Amadeo-Frontend/Angular-blog/assets/104178969/48320da9-88ce-4636-b633-b0ea9d00b800
+
+
+
 ## Pré-requisitos
 
 Antes de iniciar, certifique-se de ter instalado:
