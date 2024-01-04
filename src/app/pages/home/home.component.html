@@ -1,5 +1,5 @@
 <body class="w-full overflow-x-hidden">
-  <div data-aos="fade-in" data-aos-duration="2500">
+  <div data-aos="fade-in" data-aos-easing="linear" data-aos-duration="3000">
     <app-menu-title></app-menu-title>
   </div>
   <div
@@ -10,7 +10,6 @@
       class="articles__main p-3"
       data-aos="fade-right"
       data-aos-duration="2500"
-      data-aos-offset="300"
       data-aos-easing="ease-in-sine"
     >
       <app-big-card [Id]="dados[0].id"></app-big-card>
@@ -19,7 +18,6 @@
       class="articles__others"
       data-aos="fade-left"
       data-aos-duration="2500"
-      data-aos-offset="300"
       data-aos-easing="ease-in-sine"
     >
       <app-small-card [Id]="'2'"></app-small-card>
